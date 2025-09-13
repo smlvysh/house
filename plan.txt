@@ -1,0 +1,61 @@
+Type conversion
+
+it changes one type to another, like number to string or string to number.
+There are two types of using type conversion
+Implict(automatic)(only changes to string and number)
+*string case*
+- any type that is in the string- when we add number to it, it makes it a string automatically, only when we add(+)
+
+*number case*
+- it reads a string type as a number type when any signs used except (+)
+
+
+-Explicit(handwritten)
+- if we add + to the result of a string types in the brackets of console.log (ex: console.log(+result)), the string turns to a number
+- another way to turn a string type to a number type is to add a word "Number" before the up brackets
+
+*number case*
+-add "String" before the bracket to turn a number type into a string type
+-we can add .toString() after the brackets to turn a number into a string type
+
+PaseInt(), Parsefloat()
+-We can add parseInt instead of the word Number to turn the string type to a number, the same with Parsefloat
+-Difference between them is that the ParseInt- if you give it a number with a dot, its gonna remove the numbers after the dot
+-Meanwhile Parsefloatleaves the numbers after the dot
+
+
+true=1
+false=0
+null=0
+undefined is never a number
+
+
+LOOPs
+
+writng the same code again and again for certain amount of types in js is not considered as a clean code, thats why we have loops, they help us to avoid repeating the same code again and again.
+1. give a variable (for(let(i=0)))(any letter can be given, but i is the most common one)
+2. give a request (for(let(i+0; i<10)))(it defines till which number its gonna circle)
+3. give make it grow by each circle by giving (i++)---(for(let(i+0; i<10; i++)))
+loop works till the request is wrong, for example if i<10, its gonna show us till 9 because 10 is not bigger than 10, the last correct answer is 9
+
+-Reverse loop
+works quite the same but now we reverse everything(for ex: instead of i=0 we do i=10, i>0 and i--)
+
+-While loop
+the same but here the variable is written outside the brackets
+ex: 
+let i=0;
+while(i<10){
+    console.log(i);
+    i++
+}
+
+
+-Do while loop
+the same but again in different order and "do" is added and "while" will come after "do"
+ex:
+let i= 0;
+do{
+    console.log(i);
+    i++;
+}while (i< 10);
